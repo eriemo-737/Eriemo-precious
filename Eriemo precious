@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyPfvsDvsCIbzmYreplWB0MR",
+      "authorship_tag": "ABX9TyOY0mFAbuwvxjL9fNJRfWW6",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -111,91 +111,6 @@
           "name": "stdout",
           "text": [
             " 14 Olabode Atewologun street\n"
-          ]
-        }
-      ]
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "name = \"Precious Eriemo\"\n",
-        "name = \"King David\"\n",
-        "address = (\"14 Olabode Atewologun street\")\n",
-        "address = \"Sabo Lagos\"\n",
-        "print (name)\n",
-        "print (address)\n",
-        "print (type(name))\n",
-        "age = 27\n",
-        "print (age)\n",
-        "print (type(age))\n",
-        "money = 20.15\n",
-        "print (type(money))\n",
-        "figure = age*money\n",
-        "print (type(figure))\n",
-        "print (figure)\n",
-        "a = age+money\n",
-        "print (a)\n",
-        "c = name+address\n",
-        "print (c)\n",
-        "inclass = False\n",
-        "print (type(inclass))\n",
-        "inclass = 370\n",
-        "print (inclass)\n",
-        "d = age*money+inclass\n",
-        "print (d)\n",
-        "a = 30\n",
-        "b = 4\n",
-        "c = (a+b)\n",
-        "print (c)\n",
-        "d = (a-b)\n",
-        "print (d)\n",
-        "c = a/b\n",
-        "print (c)\n",
-        "e = a%b\n",
-        "print (e)\n",
-        "f = a*b\n",
-        "print (f)\n",
-        "g = a**b\n",
-        "print (g)\n",
-        "I = a//b\n",
-        "print (I)\n",
-        "d = \"hello\"\n",
-        "print (d*3)"
-      ],
-      "metadata": {
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "id": "07fQjfvLB8he",
-        "outputId": "7951e2c8-1690-49cb-f0b7-1aa2f907dcc7"
-      },
-      "execution_count": null,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "King David\n",
-            "Sabo Lagos\n",
-            "<class 'str'>\n",
-            "27\n",
-            "<class 'int'>\n",
-            "<class 'float'>\n",
-            "<class 'float'>\n",
-            "544.05\n",
-            "47.15\n",
-            "King DavidSabo Lagos\n",
-            "<class 'bool'>\n",
-            "370\n",
-            "914.05\n",
-            "34\n",
-            "26\n",
-            "7.5\n",
-            "2\n",
-            "120\n",
-            "810000\n",
-            "7\n",
-            "hellohellohello\n"
           ]
         }
       ]
