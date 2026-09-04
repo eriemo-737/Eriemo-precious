@@ -1,0 +1,298 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPbG+gv5S0CvRGPhKmB/xpx",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/eriemo-737/Eriemo-precious/blob/main/Eriemo-precious\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "qsgKLK7n9MjT",
+        "outputId": "99f7ffc6-3fde-4cda-e6fe-40d2f90681db"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            " Precious Eriemo\n"
+          ]
+        }
+      ],
+      "source": [
+        "print(\" Precious Eriemo\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "name"
+      ],
+      "metadata": {
+        "id": "jm2IaUESEfvO"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print (\"\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "J7pn8ivgBPU2",
+        "outputId": "ff74148f-e426-41f3-e24b-86eec78c0e4f"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "SPh7fvMiSO6C"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\" 14 Olabode Atewologun street\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "JabhxIFM_fxE",
+        "outputId": "47f66b7e-5f48-4a72-921a-c3a480925977"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            " 14 Olabode Atewologun street\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "name = (\"Eriemo Precious Ese\")\n",
+        "print (name)\n",
+        "print (type(name))\n",
+        "age = 27\n",
+        "print (age)\n",
+        "print (type(age))\n",
+        "department = (\"English Education\")\n",
+        "print (department)\n",
+        "print (type(department))\n",
+        "mathematics = 78\n",
+        "print (mathematics)\n",
+        "print (type(mathematics))\n",
+        "python = 82\n",
+        "print (python)\n",
+        "print (type(python))\n",
+        "statistics = 74\n",
+        "print (statistics)\n",
+        "print (type(statistics))\n",
+        "total = (mathematics+python+statistics)\n",
+        "print (total)\n",
+        "print (type(total))\n",
+        "average =(total/3)\n",
+        "print (average)\n",
+        "print (type(average))\n",
+        "highestscore = 82\n",
+        "print (highestscore)\n",
+        "print (type(highestscore))\n",
+        "lowestscore = 74\n",
+        "print (lowestscore)\n",
+        "print (type(lowestscore))\n",
+        "passed = True\n",
+        "print (passed)\n",
+        "print (type(passed))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Ol7np8OgSSRb",
+        "outputId": "53873acb-b80d-4a59-84af-7dfe41541e42"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Eriemo Precious Ese\n",
+            "<class 'str'>\n",
+            "27\n",
+            "<class 'int'>\n",
+            "English Education\n",
+            "<class 'str'>\n",
+            "78\n",
+            "<class 'int'>\n",
+            "82\n",
+            "<class 'int'>\n",
+            "74\n",
+            "<class 'int'>\n",
+            "234\n",
+            "<class 'int'>\n",
+            "78.0\n",
+            "<class 'float'>\n",
+            "82\n",
+            "<class 'int'>\n",
+            "74\n",
+            "<class 'int'>\n",
+            "True\n",
+            "<class 'bool'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "name = \"John doe\"\n",
+        "print (name.title())\n",
+        "name = \"John Doe\"\n",
+        "print (name.lower())"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "TPZzYpMpmBU-",
+        "outputId": "c6d4cf9c-44c1-4d80-84a6-6a3cf0edbb3b"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "John Doe\n",
+            "john doe\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "name = (\"Eriemo Precious Ese\")\n",
+        "print  (name)\n",
+        "print (type(name))\n",
+        "age = 27\n",
+        "print (age)\n",
+        "print (type(age))\n",
+        "department = (\"English Education\")\n",
+        "print (department)\n",
+        "print (type(department))\n",
+        "mathematics = 78\n",
+        "print (mathematics)\n",
+        "print (type(mathematics))\n",
+        "python = 82\n",
+        "print (python)\n",
+        "print (type(python))\n",
+        "statistics = 74\n",
+        "print (statistics)\n",
+        "print (type(statistics))\n",
+        "total = (mathematics+python+statistics)\n",
+        "print (total)\n",
+        "print (type(total))\n",
+        "average =(total/3)\n",
+        "print (average)\n",
+        "print (type(average))\n",
+        "highestscore = 82\n",
+        "print (highestscore)\n",
+        "print (type(highestscore))\n",
+        "lowestscore = 74\n",
+        "print (lowestscore)\n",
+        "print (type(lowestscore))\n",
+        "passed = True\n",
+        "print (passed)\n",
+        "print (type(passed))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "25ClXcKiExlq",
+        "outputId": "259c1e0b-e2bb-4aaa-f95f-4f71c571cf63"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Eriemo Precious Ese\n",
+            "<class 'str'>\n",
+            "27\n",
+            "<class 'int'>\n",
+            "English Education\n",
+            "<class 'str'>\n",
+            "78\n",
+            "<class 'int'>\n",
+            "82\n",
+            "<class 'int'>\n",
+            "74\n",
+            "<class 'int'>\n",
+            "234\n",
+            "<class 'int'>\n",
+            "78.0\n",
+            "<class 'float'>\n",
+            "82\n",
+            "<class 'int'>\n",
+            "74\n",
+            "<class 'int'>\n",
+            "True\n",
+            "<class 'bool'>\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
